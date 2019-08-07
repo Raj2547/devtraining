@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(255, 255, 204);
+    margin: 25px;
+    font-family: Arial; 
+}
+.header{
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(204, 0, 0);
+    height:55px;
+}
+.header .header-label{
+    background-color: rgb(153, 0, 0);
+    color:rgb(255, 255, 204);
+    letter-spacing: 17px;
+    font-style: italic;
+    height:40px;
+}
+.content .para{
+    margin: 0;
+    line-height:20px;
+    font-size: 14px;
+}
+.content .para .bold{
+    text-transform: uppercase;
+    font-style: italic;
+}
+.content .content-label{
+   background-color:rgb(0,153,0);
+   color:rgb(255,255,255);
+   padding:2px 0 0 15px;
+   height: 30px;
+}
+.content .list{
+    color:rgb(155, 4, 3);
+    font-size: 15px;
+    font-style: italic;
+}
+.link{
+    padding-top:15px;
+    text-decoration: none;  
+}
+.content .img-link{
+    border:2px dashed rgb(204,204,204);
+    background-color: white;
+    height: 62px;
+    padding: 21px 50px 15px 20px;
+}
+.table table,td{
+    border: 1px solid black;
+    background-color: rgb(204,204,204);
+}
+.table .table-label{
+    color:rgb(150, 150, 150);;
+}
+.form .form-label{
+    color:rgb(150, 150, 150);;
+}
+.form p strong{
+    font-style: italic;
+}
+.form ::-webkit-input-placeholder { 
+    color: black;
+}
+.form :-ms-input-placeholder { 
+    color: black;
+}
+.form ::-ms-input-placeholder { 
+    color: black;
+}
+.form ::placeholder { 
+    color: black;
+}
+.form #name:focus{
+    border-color:teal;
+}
+.form #comments:focus{
+    border-color:teal;
+}
+.form #male:focus{
+    border-color:teal;
+}
+.form #female:focus{
+    border-color:teal;
+}
+.form #submit:focus{
+    border-color:teal;
+}

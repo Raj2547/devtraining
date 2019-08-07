@@ -1,0 +1,19 @@
+.dragbox{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:390px;
+    border: 1px solid;
+    background-color: coral;
+}
+.pass{
+    position: fixed;
+    top:500px;
+    margin: 10px
+}
+.pass p[color="green"]{
+    color: green;
+} 
+.pass p[color="red"]{
+    color: red;
+} 

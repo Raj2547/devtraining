@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form-Elements</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+    <form class="form-elements">
+        <h2>Basic Form Elements</h2>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" maxlength="32">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="21" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="hidden" id="emailid" value="raj.shah@zeuslearning.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name1">Display Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name1" maxlength="32" value="Raj Shah" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address1">Display Address:</label>
+                </td>
+                <td class="noresize">
+                    <textarea name="address" id="address1" cols="21" rows="5"
+                        readonly>1402, Zeus Learning, Tower B, Peninsula Business Park, Lower Parel, Mumbai</textarea>
+                </td>
+            </tr>
+            <tr class="multiline">
+                <td><label>Hobbies:</label></td>
+                <td><input type="checkbox"><label>Cricket</label><input
+                        type="checkbox"><label>Football</label><input type="checkbox"><label>Reading</label><input
+                        type="checkbox"><label>Cooking</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Qualification:</label>
+                </td>
+                <td>
+                    <select name="qualification">
+                        <option value="HSC">HSC</option>
+                        <option value="BTech">BTEch.</option>
+                        <option value="MTech">MTEch.</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        <label>Skills:</label>
+                    </td>
+                    <td>
+                        <select name="skills" size="4" multiple>
+                            <option value="Javascript">Javascript</option>
+                            <option value="C">C</option>
+                            <option value="C++">C++</option>
+                            <option value=".net">.NET</option>
+                            <option value="Java">Java</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                        </select>
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+
+</html>

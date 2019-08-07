@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first web page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <h1 class="header-label">My first web page</h1>
+        </div>
+        <div class="content">
+            <h2 class="content-label">What this is</h2>
+            <p class="para">Welcome to <em>my first webpage</em>. I created this webpage without the assistance of a
+                webpage editor. Just my little text editor and a keen <strong class="bold">understanding of html.</strong></p>
+            <h2 class="content-label">Why this is</h2>
+            <ul class="list">
+                <li>To learn HTML</li>
+                <li>List element</li>
+                <ol>
+                    <li>Home</li>
+                    <li>FAQ</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ol>
+                <li>Here I have created ordered and unordered list</li>
+            </ul>
+            <h2 class="content-label">ZeusLearning.com</h2>
+            <a class="link" target="_blank" href="https://www.zeuslearning.com">This link will open zeuslearning.com in
+                new tab</a>
+            <h2 class="content-label">On click of following image navigate to Google.com</h2>
+            <a class="link" target="_blank" href="https://www.google.com"><img class="img-link" src="google.png"
+                    alt="Image of google logo"></a>
+        </div>
+        <div class="table">
+            <h2 class="table-label">Some random table</h2>
+            <table>
+                <tr>
+                    <td>Row 1, cell 1</td>
+                    <td>Row 1, cell 2</td>
+                    <td>Row 1, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2, cell 1</td>
+                    <td>Row 2, cell 2</td>
+                    <td>Row 2, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 3, cell 1</td>
+                    <td>Row 3, cell 2</td>
+                    <td>Row 3, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 4, cell 1</td>
+                    <td>Row 4, cell 2</td>
+                    <td>Row 4, cell 3</td>
+                </tr>
+            </table>
+        </div>
+        <div class="form">
+            <h2 class="form-label">Some random form</h2>
+            <p><strong>NOTE:</strong> It looks the part, but won't do a anything.</p>
+            <form onsubmit="return validateForm()">
+                <p><label>Name:</label></p>
+                <p><label><input type="text" id="name" placeholder="Your name" autocomplete="off"></label></p>
+                <p><label>Comments:</label></p>
+                <p><label><textarea name="comments" id="comments" cols="20" rows="10"
+                            placeholder="Your comments" ></textarea></label></p>
+                <p><label>Are you:</label></p>
+                <p><label><input type="radio" id="male" name="Gender" >Male</label></p>
+                <p><label><input type="radio" id="female" name="Gender" >Female</label></p>
+                <p><label><input type="submit" id="submit" value="Submit Query"></label></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

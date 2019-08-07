@@ -1,0 +1,27 @@
+.format1 table,td{
+    border:1px solid;
+    text-align: center;
+    padding: 3px;
+}
+.format2{
+    margin-top: 15px;
+}
+.format2 table,td,th{
+    border:1px solid;
+    text-align: left;
+    padding: 3px;
+}
+.format3{
+    margin-top: 15px;
+}
+.format3 table,td{
+    border:1px solid;
+    padding: 3px;
+}
+.format4{
+    margin-top: 15px;
+}
+.format4 table,td{
+    border:1px solid;
+    padding: 3px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 13 - Form</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+        }
+
+        .noresize textarea {
+            resize: none;
+        }
+
+        .btncenter {
+            text-align: center;
+        }
+
+        .multiline label::after {
+            content: '\A';
+            white-space: pre;
+        }
+        table{
+            margin: 10px;
+        }
+        .viewbtn{
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" class="form-elements" id="formelements" onsubmit="return personmanager.formSave()"
+        onreset="resetFocus()" method="POST">
+        <table>
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td><input type="text" name="first name" id="fname" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name</label></td>
+                <td><input type="text" id="lname" name="last name"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="gender" id="male" value="male">MALE<input type="radio" name="gender" id="female" value="female">FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td><label>Hobbies:</label></td>
+                <td class="multiline"><input type="checkbox" name="hobbies" id="reading"><label>Reading</label><input
+                        type="checkbox" id="singing" name="hobbies"><label>Singing</label><input type="checkbox"
+                        id="dancing" name="hobbies"><label>Dancing</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Highest eductaion</label>
+                </td>
+                <td>
+                    <select name="qualification" id="qualification" name="highest-education">
+                        <option value=""></option>
+                        <option value="ms">Masters</option>
+                        <option value="be">Bachelors</option>
+                        <option value="hs">Highschool</option>
+                        <option value="none">None of these</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Skillset</label>
+                </td>
+                <td>
+                    <select name="skills" size="4" multiple id="skill" class="skillset">
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="HTML">HTML</option>
+                        <option value="csharp.net">C# .NET</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mstatus">Marital Status</label></td>
+                <td><input type="radio" name="marital status" id="married">Married<input type="radio"
+                        name="marital status" id="unmarried">Unmarried
+                </td>
+            </tr>
+            <tr>
+                <td><label for="spouse name">Name of Spouse</label></td>
+                <td><input type="text" id="spousename" name="spouse-name" disabled="disabled"></td>
+            </tr>
+            <tr class="noresize">
+                <td><label for="otherdetails">Other details</label></td>
+                <td><textarea name="other details" id="otherdetails" cols="22" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth </label></td>
+                <td><input type="text" name="valid date of birth" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email-id</label></td>
+                <td><input type="text" name="valid email-id" id="email"></td>
+            </tr>
+            <tr class="btncenter">
+                <td><button type="reset" id="reset">Reset</button></td>
+                <td><input type="submit" id="save" value="Save"></td>
+            </tr>
+        </table>
+    </form>
+    <button id="viewdata" hidden="hidden" class="viewbtn">View</button>
+    <h2 id="header" hidden="hidden" >Data entered is</h2>
+    <table id="datadisplay" hidden="hidden"></table>
+    <script src="validation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+.runner{
+    height: 800px;
+    width: max-content;
+}
+.gamerunner{
+    display: flex;
+    height: 120px;
+    background-color: rgb(158,158,158);
+}
+.playerimg{
+    border: 5px solid;
+    width:120px;
+    background-image: url(avatarplaceholder.png);
+    background-size: cover;
+}
+.playerprofile{
+    margin: 0 50px;
+    text-align: center;
+}
+.playerprofile h2{
+    color: white;
+
+}
+.playerprofile button{
+    width:100px;
+    height: 30px;
+}
+
+.track{
+    position: relative;
+    height:50px;
+    margin-top: 22px;
+    background-image: url(track.png);
+    
+}
+.track .runner{
+    position: absolute;
+    margin-left: -31px;
+    width: 32px;
+    height: 57px;
+    background-image: url(stick-runner.png);
+    background-position-x: 0;
+}
+.dispTime{
+    text-align: center;
+    margin: 25px 0 0 300px;
+    height: 280px;
+    overflow: auto;
+}
+.dispTime td,th{
+    width: 150px;
+    line-height: 35px;
+    border-bottom: 1px solid grey;
+    color:#004376;
+}
+.dispTime td:nth-child(odd),th:nth-child(odd){
+    border-right: 1px solid grey;
+}
+.datalabel{
+    display: flex;
+}
+.setlabel{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    width: 48px;
+    left: -23px;
+
+}

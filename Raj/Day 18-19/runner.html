@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="runner.css">
+</head>
+
+<body>
+    <div class="runner">
+        <div class="gamerunner">
+            <div class="playerimg"></div>
+            <div class="playerprofile"> 
+                <h2>Sam</h2>
+                <button id="gobtn">Go</button>
+                <button id="resetbtn" hidden>Reset</button>
+            </div>
+            <div>
+                <div class="track" id="track">
+                    <div class="runner" id="runner"></div>
+                </div>
+                <div id="datalabel" class="datalabel">
+                    <div class="setlabel">0</div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="dispTime">
+            <table>
+                <tbody id="datadisp">
+                    <tr>
+                        <th>Time(t in sec)</th>
+                        <th>Distance(d in mtrs)</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="runner.js"></script>
+</body>
+
+</html>
