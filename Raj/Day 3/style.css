@@ -1,0 +1,9 @@
+.form table,td{
+    border: 1px solid;
+}
+.form textarea{
+    resize:none;
+}
+.btncenter{
+    text-align: center;
+}

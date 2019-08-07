@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<h2>My First JavaScript</h2>
+<script>
+	var a=10;
+    function red(){
+    	return document.getElementById('demo').style.backgroundColor = 'red';
+    }
+     function blue(){
+    	return document.getElementById('demo').style.backgroundColor = 'blue';
+    }
+     function reset(){
+        var width=100;
+        var height=50;
+    	return document.getElementById('demo').style.backgroundColor = 'white';
+        return document.getElementById('demo').style.width = width;
+        return document.getElementById('demo').style.height = height;
+    }
+     function increase(){
+       var box = document.getElementById('demo').style.width;
+        box.value = box.value+a;
+
+    }
+</script>
+<button type="button"
+onclick="red()">
+Red</button>
+<button type="button"
+onclick="blue()">
+blue</button>
+<button type="button"
+onclick="increase()">
++</button>
+<button type="button"
+onclick="reset()">
+Reset</button>
+
+<div id="demo" style="width:100px;height:50px;border:1px solid black;"></div>
+
+</body>
+</html> 

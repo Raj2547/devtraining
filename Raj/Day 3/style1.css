@@ -1,0 +1,9 @@
+.form-elements table{
+    border: 1px solid
+}
+.noresize textarea{
+    resize: none;
+}
+td input{
+    white-space: pre;
+}

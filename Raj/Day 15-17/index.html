@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="timeOut()">
+    <div><img id="displayimage"></div>
+    <div id="loader">
+        <h2>Loading Image</h2>
+    </div>
+    <p id="offsetdisp"></p>
+    <div id="dragbox" class="dragbox"></div>
+    <div class="pass" id="pass-area">
+        <label for="password" id="passlabel">Password:</label>
+        <input id="pass" type="password">
+        <div>
+            <p id="check1">Atleast 8 characters</p>
+            <p id="check2">Atleast 1 capital letter</p>
+            <p id="check3">Atleast 1 small case letter</p>
+            <p id="check4">Atleast 1 numeric value</p>
+            <p id="check5">Atleast 1 special character</p>
+        </div>
+
+    </div>
+    <script src="loadpassdrag.js"></script>
+</body>
+
+</html>

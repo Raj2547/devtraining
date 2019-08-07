@@ -1,0 +1,19 @@
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.header-color{
+    color:darkgreen;
+}
+.para-height{
+    line-height: 19px;
+}
+.rem-underline{
+    text-decoration: none;
+}
+.rem-underline:hover{
+    text-decoration: underline;
+}
+.capitalize{
+    text-transform: uppercase
+}

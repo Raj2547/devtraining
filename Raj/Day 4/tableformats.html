@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escape Characters and Table formats</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Some Escape Characters</h1>
+    <p>&lt;&nbsp;&gt;&nbsp;&amp;&nbsp;&quot;&nbsp;</p>
+    <h1>Table Formats</h1>
+    <div class="format1">
+        <table>
+            <tr>
+                <td rowspan="2">Name of train</td>
+                <td rowspan="2">Place</td>
+                <td rowspan="2">Destination</td>
+                <td rowspan="2">Train No.</td>
+                <td colspan="2">Time</td>
+                <td rowspan="2">Fair</td>
+            </tr>
+            <tr>
+                <td>Arrival</td>
+                <td>Departure</td>
+            </tr>
+        </table>
+    </div>
+    <div class="format2">
+        <table>
+            <tr>
+                <td colspan="4">Heading</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+            </tr>
+        </table>
+    </div>
+    <div class="format3">
+        <table>
+            <tr>
+                <td rowspan="2">Weather</td>
+                <th>Delhi</th>
+                <th>Mumbai</th>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>35</td>
+            </tr>
+        </table>
+    </div>
+    <div class="format4">
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td rowspan="2" colspan="2">13</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
