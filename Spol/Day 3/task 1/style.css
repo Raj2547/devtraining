@@ -1,0 +1,9 @@
+table,td{
+    border: 1px solid;
+}
+textarea{
+    resize: none;
+}
+.center{
+    text-align: center;
+}

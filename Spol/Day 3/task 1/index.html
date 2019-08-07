@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Employee Input Form</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h1>Add Employee</h1>
+        </header>
+        <div class="form">
+            <form action="#" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="fname">First Name</label></td>
+                        <td><input type="text" name="fname" id="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name</label></td>
+                        <td><input type="text" name="lname" id="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="male" checked>
+                            <label for="male">MALE</label>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">FEMALE</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="m-status">Marital Status</label></td>
+                        <td>
+                            <input type="radio" name="m-status" id="married" checked>
+                            <label for="married">Married</label>
+                            <input type="radio" name="m-status" id="unmarried">
+                            <label for="unmarried">Unmarried</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="sp-name">Name of Spouse</label></td>
+                        <td><input type="text" name="sp-name" id="sp-name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fname">Other Details</label></td>
+                        <td><textarea name="" id="" cols="22" rows="2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="center">
+                            <input type="checkbox" name="terms" id="terms" checked>
+                            <span>I accept <a href="">Terms and Conditions</a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="center"><input type="reset" value="RESET"></td>
+                        <td class="center"><input type="submit" value="SAVE"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

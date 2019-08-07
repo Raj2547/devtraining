@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(255, 255, 204);
+    font-family: Arial;
+}
+.page{
+    margin: 0 10px;
+}
+.header{
+    background-color: rgb(204, 0, 0);
+    height: 55px;
+}
+.header .header-label{
+    background-color: rgb(134, 10, 10);
+    text-align: center;
+    height: 40px;
+    color: rgb(255, 255, 204);
+    letter-spacing: 17px;
+}
+.italic{
+    font-style: italic;
+}
+.strong{
+    font-weight: 900;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.wrapper a{
+    text-decoration: none;
+}
+
+.list{
+    color: rgb(189, 60, 60);
+    font-weight: 500;
+}
+
+.heading{
+    background-color: rgb(0, 153, 0);
+    color: rgb(255,255,255);
+    padding: 2px 10px;
+}
+.sec-heading{
+    color: rgb(146, 144, 144);
+}
+.img-box{
+    background-color: rgb(255,255,255);
+    width: 233px;
+    height: 118px;
+    border: 2px dashed rgb(150, 150, 150);
+    box-sizing: border-box;
+}
+.img-box .img-res{
+    box-sizing: content-box;
+    padding: 32px 0 0 19px;
+    height: 60px;
+    width: 180px;
+}
+
+
+.table td,table{
+    border: 1px solid;
+    background-color: rgb(185, 185, 185);
+}
+
+.form_wrapper .name-input:focus{
+    border-color: rgb(65, 152, 252);
+}
+.form_wrapper .name-input{
+    color: rgb(0, 0, 0);
+    width: 170px;
+    height: 20px;
+    font-size: 15px
+}
+.form_wrapper .cmnt{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#first{
+    background: ;
+}

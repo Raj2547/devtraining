@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #first {
+            background: #1976d2;
+        }
+
+        #second {
+            background: #1e88e5;
+        }
+
+        #third {
+            background: #2196f3;
+        }
+
+        #fourth {
+            background: #42a5f5;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        p {
+            margin: 50px;
+        }
+
+        progress {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #aaa;
+        }
+
+        progress::-webkit-progress-bar {
+            background: black;
+            border-radius: 50px;
+            padding: 2px;
+            box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        progress::-webkit-progress-value {
+            border-radius: 50px;
+            box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+            background:
+                -webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+                -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+                -webkit-linear-gradient(left, #ba7448, #c4672d);
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <progress value="50" max="144"></progress>
+    <section id="first">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section id="second">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section id="third">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section id="fourth">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+</body>
+
+</html>

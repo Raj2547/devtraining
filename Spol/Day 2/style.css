@@ -1,0 +1,291 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    display: flex;
+    position: relative;
+    height: 500px;;
+    padding: 10px;
+    box-shadow: 1px 0 15px 2px #ccc;
+    background: linear-gradient(#1336467d,#b3e5fcbd) ,url(assests/images/banner-bg3.jpg) ;
+    background-attachment: fixed;
+    background-size: 100% 520px;
+    background-repeat: no-repeat;
+}
+header .lable{
+    display: inline-block;
+    margin: 0;
+    color: #e1f5fe;
+    font-size: 25px;
+
+}
+.blue{
+    color: #039be5;
+}
+header .lable h1{
+    letter-spacing: 2px;
+    padding: 20px 50px 20px;
+}
+.logo{
+    background-image: url(assests/logo/zeus.png);
+    height: 79px;
+    width: 202px;
+    display: inline-block;
+    margin: 56px 20px 51px 90px;
+}
+.search-links{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 300px;
+}
+.search-links p{
+    color: rgb(113, 135, 160);
+    float: left;
+    margin: 10px;
+}
+.search-logo{
+    background-image: url(assests/logo/search-logo.png);
+    background-size: 299%;
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: 10px;
+    background-position-y: 20px;
+}
+.search-logo:hover{
+    background-position-y: 40px;
+}
+.y-logo{
+    background-position-x: 19px;
+}
+.b-logo{
+    background-position-x: 40px;
+}
+.emp-list ol{
+    margin: 0;
+}
+.emp-list .lable{
+    font-size: 20px;
+}
+.emp-list ol li,.emp-list .lable{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+.emp-list{
+    padding: 10px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.966),rgba(139, 198, 233, 0.356)),url(assests/images/our-team.jpg);
+    background-size: contain;
+}
+.our-client{
+    background: rgb(240, 250, 255);
+}
+.features img{
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+.section-lable{
+    color: #42a5f5;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0;
+}
+.features-card{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    height: 350px;
+}
+.features-card:nth-child(odd) img{
+   float: right;
+   margin-left: 150px;
+}
+.features-card:nth-child(even) img{
+   float: left;
+   margin-right: 150px;
+}
+
+.features-card:nth-child(even) .features-text{
+    margin-right: 150px;
+}
+.features-card .features-text{
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+    color: rgb(104, 104, 104);
+}
+.our-client .client-list .client-scroll{
+    height: 120px;
+    width: 100%;
+}
+
+.our-client img{
+    height: 100px;
+    width: 280px;
+}
+
+.client-list {
+    width: 100%;
+	color: Black;
+    overflow: wrap;
+    box-sizing: border-box;
+}
+.client-list .client-scroll {
+    display: inline-block;
+    text-align: center;
+}
+.client-list .client-scroll a:hover {
+    opacity: 0.5;
+}
+.e-learning .wrapper{
+    display: flex;
+    padding: 50px;
+    height: 415px;
+}
+.e-learning .wrapper .text{
+    padding-top: 100px; 
+    width: 50%;
+}
+.e-learning .wrapper .sq-list{
+    width: 50%;
+    overflow-y: scroll;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.541), rgba(255, 255, 255, 0.568)),url(assests/images/math-bg.jpg);
+}
+.wrapper .sq-list li{
+    background: #7dcbf1;
+    width: 250px;
+    height: 30px;
+    margin: 10px auto;
+    list-style: none;
+    text-align: center;
+    box-shadow: 1px 1px 10px 0px rgb(24, 24, 24);
+}
+.e-learning .wrapper .sq-list li:hover{
+    transform: scale(1.2);
+}
+
+.e-learning .project-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+.contact{
+    background: #a8e3ff;
+    padding: 20px;
+    color: rgb(75, 75, 75);;
+}
+.contact form .email::placeholder{
+    color: #344955;
+}
+.contact form .email:focus::placeholder{
+    color: transparent;
+}
+.contact form .email{
+    height: 20px;
+}
+.contact form input,
+.contact form textarea{
+    all: unset;
+    display: block;
+    margin: 10px;
+    background: transparent;
+    border: 1px solid rgb(112, 153, 187);
+    padding: 5px;
+}
+.contact form input:hover,
+.contact form textarea:hover{
+    border-color: rgb(33, 80, 119);
+}
+.contact form input:focus,
+.contact form textarea:focus{
+    border-color: rgb(2, 2, 2);
+}
+.contact form{
+    width: 50%;
+    display: inline-block;
+}
+.contact .address{
+    width: 17%;
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+}
+
+.contact .send-btn:hover{
+    background: rgb(191, 226, 243);
+}
+
+.contact .address a{
+    text-decoration: none;
+    color: #1c8deb;;
+}
+
+.e-learning .wrapper .sq-list::-webkit-scrollbar {
+    width: 10px;
+  }
+.e-learning .wrapper .sq-list::-webkit-scrollbar-thumb {
+    background: rgb(103, 207, 248); 
+  }
+.e-learning .wrapper .sq-list::-webkit-scrollbar-thumb:hover {
+    background: #4dbbfa; 
+  }
+  .nav-btn{
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 15px;
+    right: 10px;
+  }
+  .down{
+      top: 50px;
+      background-image: url(assests/logo/down.png);
+  }
+  .up{
+      bottom: 0;
+      background-image: url(assests/logo/up.png);
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 1141px){
+    .banner{
+        display:block;
+        background-size: 190% 520px;
+    }
+    header .lable{
+        display:block;
+    }
+    .features-card{
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        height: max-content;
+    }
+    .features-card:nth-child(odd) img{
+       float: none;
+       margin: auto;
+    }
+    .features-card:nth-child(even) img{
+       float: none;
+       margin: auto;
+    }
+    .features-card .features-text{
+        margin: auto;
+    }
+    .features-card:nth-child(even) .features-text{
+        margin-right: 0;
+        margin: auto;
+    }
+}

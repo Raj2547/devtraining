@@ -1,0 +1,21 @@
+.page{
+    display: flex;
+    text-align: center;
+}
+.box{
+    position: absolute;
+    top: 153px;
+    left: 612px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background: rgb(236, 198, 198);
+    /* cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto; */
+}
+#offset{
+    margin-left: 50px;
+}
+
+#pass{
+    margin: 50px;
+}

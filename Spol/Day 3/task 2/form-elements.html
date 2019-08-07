@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Elements</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="form">
+            <form action="#" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" name="name" id="name" maxlength="32"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="add1">Address</label></td>
+                        <td><textarea name="address" id="add1" cols="25" rows="2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" name="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="hidden" name="email" id="email" value="shubham.pol@zeuslearning.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" name="name-disabled" id="name-disabled" value="Shubham Pol" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><label for="add2">Address</label></td>
+                        <td><textarea name="address2" id="add2" cols="25" rows="2" readonly>Block B, Lower Parel</textarea></td>
+                    </tr>
+                    <tr>
+
+                        <td>Hobbies</td>
+                        <td>
+                            <input type="checkbox" name="hobbies" id="reading">
+                            <label for="reading">reading</label>
+                            <input type="checkbox" name="hobbies" id="cricket">
+                            <label for="cricket">cricket</label>
+                            <input type="checkbox" name="hobbies" id="football">
+                            <label for="football">football</label>
+                            <input type="checkbox" name="hobbies" id="cooking">
+                            <label for="cooking">cooking</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Education</td>
+                        <td>
+                            <select id="education">
+                                <option value="hsc">12</option>
+                                <option value="graduate">Graduate</option>
+                                <option value="p-graduate">Post Graduate</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Skills</td>
+                        <td>
+                            <select name="Skills" size="4" multiple>
+                                <option value="js">JavaScript</option>
+                                <option value="c">C</option>
+                                <option value="cpp">C++</option>
+                                <option value="dot-net">.NET</option>
+                                <option value="java">Java</option>
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

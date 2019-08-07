@@ -1,0 +1,19 @@
+h2{
+    color: darkgreen;
+}
+h2,h3{
+    font-family: Georgia;
+    text-align: center;
+}
+p{
+    line-height: 19px;
+}
+body>a{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

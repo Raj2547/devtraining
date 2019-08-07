@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee Input Form</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        input[type="checkbox"]~label:after {
+            content: '\A';
+            white-space: pre;
+        }
+
+        .view-btn {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" onsubmit="return a.save()" onreset="resetAll()" id="form">
+        <table>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="firstname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" id="lname" name="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Hobbies</label></td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="reading" id="reading"><label
+                        for="reading">Reading</label>
+                    <input type="checkbox" name="hobbies" value="singing" id="singing"><label
+                        for="singing">Singing</label>
+                    <input type="checkbox" name="hobbies" value="dancing" id="dancing"><label
+                        for="dancing">Dancing</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="edu">Highest Education</label></td>
+                <td>
+                    <select name="higher education" id="edu">
+                        <option name="higherstudies" value="blank"></option>
+                        <option name="higherstudies" value="masters">Masters</option>
+                        <option name="higherstudies" value="bachelors">Bachelors</option>
+                        <option name="higherstudies" value="high school">High School</option>
+                        <option name="higherstudies" value="none of these">None of these</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="skiil">Skillset</label></td>
+                <td>
+                    <select name="skillset" id="skill" class="skill" multiple="multiple">
+                        <option name="skillset" value="cpp">C++</option>
+                        <option name="skillset" value="java">Java</option>
+                        <option name="skillset" value="html">HTML</option>
+                        <option name="skillset" value="cs">C#</option>
+                        <option name="skillset" value="dot net">.NET</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="status">Marital status</label></td>
+                <td>
+                    <input type="radio" name="marital status" id="married"><label for="married">Married</label>
+                    <input type="radio" name="marital status" id="unmarried"><label for="unmarried">Unmarried</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="spouse">Name of Spouse</label></td>
+                <td><input name="name of spouse" type="text" id="spouse" disabled></td>
+            </tr>
+            <tr>
+                <td><label for="details">Other Details</label></td>
+                <td><textarea name="other details" id="details" cols="30" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="text" id="dob" name="valid Date of Birth"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="valid email"></td>
+            </tr>
+            <tr>
+                <td class="center"><input type="reset" id="reset" value="RESET"></td>
+                <td class="center"><input type="submit" id="save" value="SAVE"></td>
+            </tr>
+        </table>
+    </form>
+
+    <button class="view-btn" id="viewBtn" hidden>View</button>
+    <div class="display">
+        <table id="formData">
+
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

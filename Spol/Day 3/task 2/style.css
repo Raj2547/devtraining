@@ -1,0 +1,12 @@
+table{
+    border: 1px solid;
+    padding: 20px;
+    width: 500px
+}
+tr td:nth-child(1){
+    width: 30%;
+    height: 30px;
+}
+select{
+    width: 170px;
+}

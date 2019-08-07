@@ -1,0 +1,147 @@
+.page .inner {
+    width: max-content;
+    height: 680px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: rgb(247, 245, 245);
+}
+
+.scoreboardArea {
+    height: 386px;
+    overflow: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.page .scoreboard {
+    padding: 0 30px;
+    margin: 0 auto;
+    background: rgb(223, 223, 223);
+    color: rgb(41, 99, 138);
+}
+
+table td, table th {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+table th~th, table td~td {
+    border-left: 1px solid;
+}
+
+table tr~tr td {
+    border-top: 1px solid;
+}
+
+.area {
+    display: flex;
+    height: 100px;
+    margin: 0 auto;
+    background: rgb(160, 160, 160);
+}
+
+.profile {
+    background-image: url(images/profile.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.btn-area {
+    padding: 10px;
+}
+
+.lable {
+    color: #fff;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.btn {
+    all: unset;
+    background: #57e4ae;
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    box-shadow: 1px 1px 1px;
+    display: block;
+    margin-top: 10px
+}
+
+.btn:active {
+    background: #4fc99a;
+    transform: scale(0.99)
+}
+
+.btn:disabled {
+    background: #2e614d;
+}
+
+.btn:focus {
+    border: 1px solid rgb(191, 255, 228);
+    box-sizing: border-box;
+}
+
+.track {
+    position: relative;
+    height: 100px;
+    width: 1050px;
+    background-image: url(images/track2.png);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+
+.runner {
+    position: absolute;
+    left: 1px;
+    background-image: url(images/runner-sequence.png);
+    height: 40px;
+    width: 30px;
+    margin-top: 37px;
+    margin-left: -23px;
+    animation-duration: 83.35ms;
+    animation-iteration-count: infinite;
+}
+
+#resetBtn {
+    display: none;
+}
+
+@keyframes run {
+    0% {
+        background-position-x: 0px;
+    }
+    10% {
+        background-position-x: -30px;
+    }
+    20% {
+        background-position-x: -60px;
+    }
+    30% {
+        background-position-x: -90px;
+    }
+    40% {
+        background-position-x: -120px;
+    }
+    50% {
+        background-position-x: -150px;
+    }
+    60% {
+        background-position-x: -180px;
+    }
+    70% {
+        background-position-x: -210px;
+    }
+    80% {
+        background-position-x: -240px;
+    }
+    90% {
+        background-position-x: -270px;
+    }
+    100% {
+        background-position-x: -300px;
+    }
+}

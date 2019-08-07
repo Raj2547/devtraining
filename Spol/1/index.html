@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Excersise 1</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="card">
+            <div class="header">
+                <h2 class="lable">Factorial of large number</h2>
+            </div>
+            <div class="form">
+                <form action="#" onsubmit="factorial()">
+                    <input id="number" type="text" placeholder="Enter your number" required pattern="\d+" autocomplete="off">
+                    <input id="btn" type="submit" value="Find Factorial">
+                    <div id="display" class="display"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="fact.js"></script>
+</body>
+
+</html>
